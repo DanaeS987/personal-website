@@ -29,11 +29,16 @@ header {
 	box-shadow: 5px 5px 10px 0px;
 }
 
-.nav-elements a {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}	
+.navbar {
+	text-align:center;
+	align-items: center;
+	justify-items: center;
+}
+
+.text {
+	font-family: sans-serif;
+	text-align: center;
+}
 
 ul {
 	font-family: 'Segoe UI';
@@ -136,10 +141,10 @@ header #vart video {
 }
 
 .navbar-footer {
+	position: absolute;
 	text-align: center;
 	align-items: center;
 	justify-items: center;
-	position: absolute;
 	width: 210px;
 	bottom: 0;
 	left:0;

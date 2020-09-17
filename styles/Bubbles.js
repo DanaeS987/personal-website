@@ -4,9 +4,9 @@ function speechBubble1() {
 	var element = document.getElementById("sbubble1");
 	
 	if (element.style.display== 'none') {
-		element.style.display= 'block';
+		element.style.display = 'block';
 	} else {
-		element.style.display='none';
+		element.style.display = 'none';
 	}
 }
 
@@ -16,7 +16,7 @@ function speechBubble2() {
 	var element = document.getElementById("sbubble2");
 	
 	if (element.style.display== 'none') {
-		element.style.display= 'block';
+		element.style = 'block';
 	} else {
 		element.style.display='none';
 	}
