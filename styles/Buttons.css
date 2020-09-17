@@ -19,7 +19,7 @@
     -o-transition: all 0.4s ease-in-out; /*opera*/
 }
 
-header #link1 a {
+header #link1 {
 	background-image: url("../layout/HomeButton.png");
 	background-size: 30px;
 	background-repeat: no-repeat;
@@ -34,7 +34,7 @@ header #link1 a {
 	width: 70px;
 }
 
-header #link2 a {
+header #link2 {
 	background-image: url("../layout/KnowledgeButton.png");
 	background-size: 30px;
 	background-repeat: no-repeat;
@@ -49,7 +49,7 @@ header #link2 a {
 	width: 70px;
 }
 
-header #link3 a {
+header #link3 {
 	background-image: url("../layout/PortfolioButton.png");
 	background-size: 30px;
 	background-repeat: no-repeat;
