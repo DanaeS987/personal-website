@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<title> Danae Pap </title>
@@ -11,35 +11,54 @@
 	<body>
 		<header>
 			<aside>
-				<div class="nav-elements">
-					<div>
-						<button class="button button1" onmouseover="speechBubble1()" onmouseout="speechBubble1()"></button>
-						<a id="link1" href="../index.html">Home</a>
-						<p id="sbubble1" style="display: none;">Home</p>
+				<div class="navbar">
+					<div class="button-with-text">
+						<button
+							class="button1"
+							onclick="window.location.href='../index.html'"
+							onmouseover="speechBubble1()"
+							onmouseout="speechBubble1()">
+						</button>
+						<p id="sbubble1" class="text" style="display: none;">Home</p>
 					</div>
 					
-					<div>
-						<button class="button button2" onmouseover="speechBubble2()" onmouseout="speechBubble2()"></button>
-						<a id="link2" href="Knowledge.html">Knowledge</a>
-						<p id="sbubble2" style="display: none;">Knowledge</p>
+					<div class="button-with-text">
+						<button
+							class="button2"
+							onclick="window.location.href='Knowledge.html'"
+							onmouseover="speechBubble2()"
+							onmouseout="speechBubble2()">
+						</button>
+						<p id="sbubble2" class="text" style="display: none;">Knowledge</p>
 					</div>
 					
-					<div>							
-						<button class="button button2" onmouseover="speechBubble3()" onmouseout="speechBubble3()"></button>
-						<a id="link3" href="Portfolio.html">Portfolio</a>
-						<p id="sbubble3" style="display: none;">Portfolio</p>
+					<div class="button-with-text">							
+						<button
+							class="button3"
+							onclick="window.location.href='Portfolio.html'"
+							onmouseover="speechBubble3()"
+							onmouseout="speechBubble3()">
+						</button>
+						<p id="sbubble3" class="text" style="display: none;">Portfolio</p>
 					</div>
 				</div>
 				<div class="navbar-footer">
 					<hr />
-						<a target="_blank" title="valid HTML" href="http://validator.w3.org/check?uri=referer"><img src="../layout/icon_html.png" alt="valid HTML" /></a> 
-						<a target="_blank" title="valid CSS" href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3"><img src="../layout/icon_css.png" alt="valid CSS" /></a>
+						<a target="_blank" title="valid HTML" href="http://validator.w3.org/check?uri=referer"><img src="../layout/icon_html.png" alt="valid HTML" /></a>
+						<p>
+							<a href="https://jigsaw.w3.org/css-validator/check/referer">
+								<img style="border:0;width:88px;height:31px"
+									src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+									alt="Valid CSS!" />
+							</a>
+						</p>
 					<hr />
 				</div>
 			</aside>
 				
 			<section class="profile">
 				<div class="circle"></div>
+				<h2>Personal Projects</h2>
 				<div id="dart">
 					<img class="art-item2" src="../material/Poster.jpg" alt="Bon Jovi Poster" >
 					<img class="art-item" src="../material/Typography.jpg" alt="Typography">
