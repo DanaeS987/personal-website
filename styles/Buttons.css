@@ -1,0 +1,239 @@
+.button {
+	
+	background-color: rgb(194, 164, 218); /* Light Purple */
+	border: none;
+	color: white;
+    cursor: pointer;
+	display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+	padding: 16px 32px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	top: 260px;
+	transition:all 0.4s ease-in-out;
+	-webkit-transition:all 0.4s ease-in-out; /* Safari */
+	-moz-transition: all 0.4s ease-in-out; /*mozilla*/
+	-ms-transition: all 0.4s ease-in-out;	/*old internet explorer*/
+    -o-transition: all 0.4s ease-in-out; /*opera*/
+}
+
+header #link1 a {
+	background-image: url("../layout/HomeButton.png");
+	background-size: 30px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+	text-indent: -99999999999999px;
+	bottom: -2px;
+	right: 13px;
+	position: relative;
+	height: 70px;
+	width: 70px;
+}
+
+header #link2 a {
+	background-image: url("../layout/KnowledgeButton.png");
+	background-size: 30px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+	text-indent: -99999999999999px;
+	bottom: -2px;
+	right: 13px;
+	position: relative;
+	height: 70px;
+	width: 70px;
+}
+
+header #link3 a {
+	background-image: url("../layout/PortfolioButton.png");
+	background-size: 30px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+	text-indent: -99999999999999px;
+	bottom: -2px;
+	right: 13px;
+	position: relative;
+	height: 70px;
+	width: 70px;
+}
+	
+.image1{
+	margin: auto;
+	margin-left: -15px;
+	height: 30px;
+	width: 35px;
+	position: relative;
+}
+
+.button1 {
+	background-color: white; 
+	background-repeat: no-repeat;
+	background-size: 30px;
+	border: 3px solid rgb(194, 164, 218);
+	border-radius: 50%;
+	color: black; 
+	height: 70px;
+	margin-left: 60px;
+	margin-top: 10px;
+	width: 70px;
+    
+}
+
+.button1:hover {
+	background-color: rgb(194, 164, 218);
+	color: white;
+	/*transform: translateX(-40px) scale(.9);
+	-webkit-transform: translateX(-40px) scale(.9);
+	-moz-transform: translateX(-40px) scale(.9);
+	-ms-transform: translateX(-40px) scale(.9);
+	-o-transform: translateX(-40px) scale(.9);*/
+}
+
+.button2 {
+	background-color: white; 
+	background-repeat: no-repeat;
+	background-size: 80px;
+	border: 3px solid rgb(194, 164, 218);
+	border-radius: 50%;
+	color: black; 
+	height: 70px;
+	margin-left: 60px;
+	margin-top: 10px;
+	width: 70px;
+}
+
+.button2:hover {
+	background-color: rgb(194, 164, 218);
+	color: white;
+	/*transform: translateX(-40px) scale(.9);
+	-webkit-transform: translateX(-40px) scale(.9);
+	-moz-transform: translateX(-40px) scale(.9);
+	-ms-transform: translateX(-40px) scale(.9);
+	-o-transform: translateX(-40px) scale(.9);*/
+}
+
+
+/* speech bubble borders 
+
+.comments {
+	margin: 50px;
+	position: relative;
+	width: 90px;
+}
+
+.comments .comment {
+	margin-bottom: 50px;
+	width: 100%;
+}
+
+.comments .comment p {
+	margin: 0 0 10px 0;
+}
+
+.bubble1 {
+	background: white;
+	border-radius: 5px;
+	color: black;
+	left: 30px;
+	margin-left: 20px;
+	margin-top: 30px;
+	padding: 10px 0px 2px 10px;
+	position: relative;
+	top: -60px;
+}
+
+.bubble2 {
+	background: white;
+	border-radius: 5px;
+	color: black;
+	left: 30px;
+	margin-left: 20px;
+	margin-top: 30px;
+	padding: 10px 0px 2px 10px;
+	position: relative;
+	top: 214px;
+}
+
+.bubble3 {
+	background: white;
+	border-radius: 5px;
+	color: black;
+	left: 30px;
+	margin-left: 20px;
+	margin-top: 30px;
+	padding: 10px 0px 2px 10px;
+	position: relative;
+	top: 202px;
+}
+
+.bubble4 {
+	background: white;
+	border-radius: 5px;
+	color: black;
+	left: 30px;
+	margin-left: 20px;
+	margin-top: 30px;
+	padding: 10px 0px 2px 10px;
+	position: relative;
+	top: 191px;
+}
+/* triangle pointer of the speech bubble
+
+.bubble1::after {
+	border-bottom: 8px solid transparent;
+	border-right: 15px solid white;
+	border-top: 8px solid transparent;
+	content: "";
+	display: block;
+	height: 0;
+	left: -14px;
+	top: 8px;
+	position: absolute;
+	width: 0;
+}
+
+.bubble2::after {
+	border-bottom: 8px solid transparent;
+	border-right: 15px solid white;
+	border-top: 8px solid transparent;
+	content: "";
+	display: block;
+	height: 0;
+	left: -14px;
+	top: 15px;
+	position: absolute;
+	width: 0;
+}
+
+.bubble3::after {
+	border-bottom: 8px solid transparent;
+	border-right: 15px solid white;
+	border-top: 8px solid transparent;
+	content: "";
+	display: block;
+	height: 0;
+	left: -14px;
+	top: 15px;
+	position: absolute;
+	width: 0;
+}
+
+.bubble4::after {
+	border-bottom: 8px solid transparent;
+	border-right: 15px solid white;
+	border-top: 8px solid transparent;
+	content: "";
+	display: block;
+	height: 0;
+	left: -14px;
+	top: 15px;
+	position: absolute;
+	width: 0;
+}

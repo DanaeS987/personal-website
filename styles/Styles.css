@@ -1,0 +1,166 @@
+body {
+	background-color: #d3bdf4; /* #b0a8b9*/
+	color:black;
+	font-family: papyrus, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	margin: 0;
+	padding: 0;
+}
+
+.profile {
+	margin-left: 180px;
+	text-align: center;
+}
+
+/* Create two columns/boxes that floats next to each other */
+ aside {
+	background-color: rgb(92, 42, 149);
+	align-items: center;
+	justify-items: center;
+	height: 100%;
+	width: 210px;
+	position: fixed;
+	margin-top: -100px;
+	padding-bottom: 43px;
+	box-shadow: 5px 5px 10px 0px;
+}
+
+aside ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}	
+
+ul {
+	font-family: 'Segoe UI';
+	list-style: none;
+}
+
+h2 {
+	font-family: sans-serif;
+}
+
+/*
+
+	display: inline-block;
+	height:100px;
+	position: relative;
+	top: -20px;
+	width: 150px;
+	left: 180px;
+
+*/
+
+
+/* Create profile photo */
+.circle {
+	background-image: url("../layout/img1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: 50% 50%;
+	display: flex;
+	border: 3px solid rgb(92, 42, 149); /*153, 132, 193*/
+	border-radius: 50%;
+	flex-direction: row;
+	height: 200px;
+	margin: 60px 550px;
+	width: 200px;
+	box-shadow: 5px 5px 10px 2px;
+}
+.circle img {
+	border-radius: 50%;
+
+}
+
+.background {
+	background-image: url("../layout/Desk.png");
+	background-repeat: no-repeat;
+	display: flex;
+	float: right;
+	height: 800px; 
+	margin: 0px;
+	width: 86.5%;
+	
+}
+
+.image2 {
+	flex-direction: row;
+	height: 150px;
+	width: 10000px;
+}
+
+#dart {
+	background-color: whitesmoke;
+	border: 1px solid rgb(92, 42, 149);
+	border-radius: 10px;
+	margin: 0px 10px 0px 50px;
+}
+
+/*header #dart img {
+	height: 200px;
+	width: 230px;
+}*/
+
+.skills ul {
+	margin-left: -50px;
+}
+
+.art-item {
+	border: 1px solid rgb(92, 42, 149);
+	border-radius: 10px;
+	box-shadow: 5px 5px 15px 2px;
+	margin: 10px;
+	object-fit: fill;
+	height: 200px;
+	width: 230px;
+}
+
+.art-item2 {
+	border: 1px solid rgb(92, 42, 149);
+	border-radius: 10px;
+	box-shadow: 5px 5px 15px 2px;
+	height: 200px;
+	margin: 10px;
+	object-fit: fill;
+	width: 200px;
+}
+
+
+header #vart video {
+	height: 700px;
+	width: 700px;
+}
+
+.navbar-footer {
+	text-align: center;
+	align-items: center;
+	justify-items: center;
+	position: absolute;
+	width: 210px;
+	bottom: 0;
+	left:0;
+}
+
+/* Create side profile photo */
+/*.small_circle {
+	background-color: red;
+	border-radius: 50%;
+	display: flex;
+	flex-direction: row;
+	width: 80px;
+	height: 80px;
+	width: 100px;
+	height: 100px;
+	margin: 110px;
+}
+
+.small_circle img{
+	border-radius: 50%;
+
+}*/
+
+
