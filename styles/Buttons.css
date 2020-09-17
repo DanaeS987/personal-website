@@ -63,7 +63,7 @@ header #link3 {
 	height: 70px;
 	width: 70px;
 }
-	
+
 .image1{
 	margin: auto;
 	margin-left: -15px;
@@ -184,7 +184,8 @@ header #link3 {
 	position: relative;
 	top: 191px;
 }
-/* triangle pointer of the speech bubble
+
+triangle pointer of the speech bubble
 
 .bubble1::after {
 	border-bottom: 8px solid transparent;
@@ -237,3 +238,4 @@ header #link3 {
 	position: absolute;
 	width: 0;
 }
+*/
